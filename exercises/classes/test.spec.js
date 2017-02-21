@@ -1,6 +1,6 @@
 const {MainCoon} = require('./exo.js');
 
-describe('Test exercice for classes', function () {
+describe('Test exercise for classes', function () {
 
   let instanceToTest;
 
