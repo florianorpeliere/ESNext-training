@@ -1,0 +1,27 @@
+{
+  "name": "esnext-training",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-classes": "jasmine exercices/classes-exercice/test.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/florianorpeliere/ESNext-training.git"
+  },
+  "keywords": [
+    "es6",
+    "js",
+    "training"
+  ],
+  "author": "Florian Orpeliere",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/florianorpeliere/ESNext-training/issues"
+  },
+  "homepage": "https://github.com/florianorpeliere/ESNext-training#readme",
+  "devDependencies": {
+    "jasmine": "^2.5.3"
+  }
+}
