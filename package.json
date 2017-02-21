@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "promises": "jasmine exercises/promises/test.spec.js",
-    "classes": "jasmine exercises/classes/test.spec.js"
+    "classes": "jasmine exercises/classes/test.spec.js",
+    "modules": "rollup exercises/modules/module-A.js -o exercises/modules/bundle.js"
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,8 @@
   "homepage": "https://github.com/florianorpeliere/ESNext-training#readme",
   "devDependencies": {
     "jasmine": "^2.5.3"
+  },
+  "dependencies": {
+    "rollup": "^0.41.4"
   }
 }
