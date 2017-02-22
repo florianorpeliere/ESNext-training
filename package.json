@@ -6,6 +6,7 @@
   "scripts": {
     "promises": "jasmine exercises/promises/test.spec.js",
     "classes": "jasmine exercises/classes/test.spec.js",
+    "proxies": "jasmine exercises/proxies/test.spec.js",
     "modules": "rollup exercises/modules/module-A.js -o exercises/modules/bundle.js"
   },
   "repository": {
