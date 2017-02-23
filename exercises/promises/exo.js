@@ -1,35 +1,35 @@
 function exercise1Fn () {
-  let exercise1 = new Promise((resolve, rejection) => {
-    setTimeout(() => resolve('I love promise'), 500);
+  let exercise1 = new Promise(() => {
+    /* votre solution ici */
   });
 
-  return exercise1.then(value => console.log(value));
+  return exercise1./* votre solution ici */
 }
 
 function exercise2Fn () {
-  let exercise2 = new Promise((resolve, rejection) => {
-    setTimeout(() => rejection('I hate rejection'), 500);
+  let exercise2 = new Promise(() => {
+    /* votre solution ici */
   });
 
-  return exercise2.catch(value => console.log(value));
+  return exercise2./* votre solution ici */
 }
 
 function exercise3Fn () {
   let exercise3 = Promise.resolve(1);
 
   function plusFive(value) {
-    return value + 5;
+    /* votre solution ici */
   }
 
   function multiplyByTwo(value) {
-    return value * 2;
+    /* votre solution ici */
   }
 
   function minusFour(value) {
-    return value - 4;
+    /* votre solution ici */
   }
 
-  return exercise3.then(plusFive).then(multiplyByTwo).then(minusFour);
+  return exercise3./* votre solution ici */;
 }
 
 module.exports = {exercise1Fn, exercise2Fn, exercise3Fn};
