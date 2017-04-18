@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "bases": "jasmine exercises/bases/test.spec.js",
     "promises": "jasmine exercises/promises/test.spec.js",
     "classes": "jasmine exercises/classes/test.spec.js",
     "proxies": "jasmine exercises/proxies/test.spec.js",
