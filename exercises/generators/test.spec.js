@@ -9,12 +9,13 @@ describe('Test exercise for classes', function () {
   });
 
   it('Fibonacci rocks', () => {
+    expect(instanceToTest.next().value).toBe(0);
+    expect(instanceToTest.next().value).toBe(1);
     expect(instanceToTest.next().value).toBe(1);
     expect(instanceToTest.next().value).toBe(2);
     expect(instanceToTest.next().value).toBe(3);
     expect(instanceToTest.next().value).toBe(5);
-    expect(instanceToTest.next().value).toBe(8);
-    expect(instanceToTest.next().value).toBe(13);
+    expect(instanceToTest.next().value).toBe(8);    
   });
 
 });
